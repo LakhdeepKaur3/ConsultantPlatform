@@ -1,0 +1,31 @@
+.imageContainer {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  width: 100px;
+  height: 69px;
+  padding:10px 10px 10px 10px;
+  border: 3px solid #ababab;
+  box-shadow:1px 1px 10px #ababab;
+  border-radius:15px;
+  background-color: white;
+  z-index: 1440;
+  text-align:center;
+  overflow: auto;
+  cursor: progress;
+}
+
+.laoder {
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 99988899;
+  position:fixed;
+  width: 100%;
+  background-color: #ababab;
+  z-index: 1001;
+  -moz-opacity: 0.8;
+  opacity: .70;
+  filter: alpha(opacity=80);
+  cursor: progress;
+}

@@ -1,0 +1,1451 @@
+
+
+
+/* body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+} */
+
+section.main-header {
+    width: 100%;
+    float: left;
+    vertical-align: middle;
+    height: auto;
+}
+.navbar-default {
+    background: none;
+    border: 0;
+    width: 100%;
+    float: left;
+    padding: 10px 0;
+ }
+.main-header hr {
+    margin-top: 0;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 4px solid #f4db25;
+}
+.navbar-brand{height: auto; padding:0;}
+.navbar-right{margin: 20px 0;}
+.navbar-default .nav>li>a{padding: 0; font-size: 18px; color:#050505; line-height: 20px;}
+.navbar-default .nav>li{padding: 0 15px; border-right: 1px solid #787878; margin: 15px 0; }
+.navbar-default .nav>li:last-child{border:0; padding-right: 0;}
+.navbar-default .nav>li select{border:0; font-size: 18px; color: #050505 !important}
+.navbar-default .nav>li select option{color:#050505 !important;}
+.navbar-default .navbar-nav>li>a{color:#050505;}
+.BannerSection{width: 100%; float: left}
+.owl-nav {
+    display: none;
+}
+.owl-carousel button.owl-dot{background: none; border:1px solid #fff; margin-bottom: -20px}
+.owl-carousel button.owl-dot {
+    border: 0;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-left: 10px;
+    background: #fff;
+}
+.owl-dots {
+    position: absolute;
+    right: 0;
+    left: 0;
+    text-align: center;
+    z-index: 99999;
+    border-radius: 50%;
+    bottom: 30px;
+}
+button.owl-dot.active {
+    background: #024f5e;
+    outline: 0;
+}
+.itemWrap{position: relative;}
+.caroTxt {
+    position: absolute;
+    right: 0;
+    left: 0;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.caroTxt h1{font-size: 70px; color:#fff; text-transform: uppercase; font-weight: bold;}
+.caroTxt p {
+    font-size: 24px;
+    color: #fff;
+}
+a.SignBtn {
+    line-height: 60px;
+    color: #fff;
+    background: #024f5f;
+    padding: 0px 35px;
+    font-size: 24px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-top: 30px;
+    display: inline-block;
+}
+a.SignBtn:hover{text-decoration: none;}
+.nav-justified>li {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-left: 10px;
+    text-align: center;
+}
+.nav-justified>li select{border:0; }
+.selectInner {
+    width: 100%;
+    float: left;
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 0;
+    position: relative;
+}
+.selectInner select {
+    border: 0;
+    background: transparent;
+    padding: 15px 0px;
+    width: 100%;
+    padding-left: 40px;
+    vertical-align: middle;
+    font-size: 16px;
+    color:#9e9c9c;
+    -webkit-appearance: none;
+    z-index: 99;
+    position: relative;
+    margin-bottom: 0;
+}
+.selectInner select:focus{outline: 0; box-shadow: none;}
+section.JustifyNav {
+    width: 100%;
+    float: left;
+    padding: 25px 0;
+    background: #f2f2f2
+}
+select {
+    width: 100%;
+    min-height: 32px;
+    margin-bottom: 20px;
+    border: 0;
+    padding: 0 8px;
+}
+.selectInner img {
+    position: absolute;
+    left: 15px;
+    vertical-align: middle;
+    top: 19px;
+}
+.selectInner {
+    width: 100%;
+    float: left;
+    border: 1px solid #c2c2c2;
+    text-align: center;
+    padding: 0;
+    position: relative;
+    border-radius: 5px;
+}
+.searchBtn input {
+    min-height: 52px;
+    text-align: center;
+    background: #024f5e;
+}
+
+.searchBtn .input-group .input-group-addon {
+    font-size: 16px;
+    position: absolute;
+    background: transparent;
+    z-index: 999;
+    text-align: center;
+    border: 0;
+    top: 10px;
+    left: -115px;
+    right: 0;
+    margin: 0 auto;
+}
+section.JustifyNav .col-md-3, section.JustifyNav .col-sm-3 {
+    padding: 0 6px !important;
+}
+.searchBtn .input-group{width: 100%;}
+.searchBtn .input-group input[type="submit"]{color:#fff; font-size: 20px;border-radius: 5px;}
+.searchTxt{font-family: 'Conv_Roboto-Regular';}
+.selectInner:after {
+    content: "\f0d7";
+    display: block;
+    right: 15px;
+    top: 15px;
+    position: absolute;
+    font-family: fontAwesome;
+    color:#9e9c9c;
+    z-index: 1;
+}
+h2 {
+    font-size: 36px;
+    text-transform: capitalize;
+    text-align: center;
+    position: relative;
+    margin-bottom: 53px;
+    padding-bottom: 16px;
+    color: #9a9a9a;
+}
+h2 span{color:#004f5e;}
+h2:before {
+    border: #000 solid 2px;
+    border-left: 0;
+    border-right: 0;
+    content: '';
+    width: 225px;
+    display: block;
+    bottom: -12px;
+    left: 0;
+    right: 0;
+    margin: 0 auto 2px;
+    position: absolute;
+    padding-bottom: 2px;
+}
+h2:after {
+    background: #35727e;
+    content: '';
+    width: 22px;
+    height: 22px;
+    display: block;
+    bottom: -17px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    position: absolute;
+    border: 5px solid #fff;
+}
+/* Edit Css on 2 Jan 2019 */
+.conWrapInner {
+    border: 1px solid #d9d7d7;
+    padding: 20px;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 30%;
+    float: left;
+    
+}
+.conWrapInner1 {
+    border: 1px solid #d9d7d7;
+    padding: 20px;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.consultantsCrousal select {
+    background: transparent;
+    font-size: 18px;
+}
+.con-img {
+    margin-top: -100px;
+}
+.side_icon {
+    position: absolute;
+    top: 10px;
+}
+.side_icon img.hover{display: none;}
+.conWrapInner:hover img.hover{display: block;}
+.conWrapInner:hover img.load{display: none}
+section.consultantWrap {
+    width: 100%;
+    float: left;
+    padding: 40px 0;
+}
+
+.conWrapInner1:hover img.hover{display: block;}
+.conWrapInner1:hover img.load{display: none}
+
+
+.person_info h4 {
+    color: #000;
+    font-size: 18px;
+}
+span.Name {
+    display: block;
+    color:#b3b3b3;
+}
+
+a.Cate-btn, button.Cate-btn {
+    display: inline-block;
+    background: #024f5e;
+    color: #fff;
+    padding: 8px 25px;
+    border-radius: 30px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.call-modal .modal-header{border: 0;}
+form.modalformAddNew label {
+    text-align: left;
+}
+ul.contactListing {
+    display: flex;
+    justify-content: space-between
+}
+ul.contactListing li input, ul.contactListing li {
+    width: 100%;
+}
+ul.contactListing li:first-child{width: 12%; margin-right: 10px;}
+.person_info {
+    font-size: 18px;
+}
+.person_info p{padding: 0; margin: 0;}
+ul{list-style-type: none; padding-left: 0;text-align: center;}
+ul.info li p{color:#b3b3b3;} 
+ul.info li p a{color:#024f5e;}
+.aboutTxt{margin-top: 15px !important; color:#777777; font-family: 'Conv_Roboto-Light';}
+.conWrapInner a:hover{text-decoration: none;}
+/* .conWrapInner:hover a.Cate-btn, .conWrapInner:hover a.View-btn{background: #02d16d; color: #fff}
+.conWrapInner:hover a{color:#02d16d;} */
+
+.conWrapInner1 a:hover{text-decoration: none;}
+/* .conWrapInner1:hover a.Cate-btn, .conWrapInner1:hover a.View-btn{background: #02d16d; color: #fff} */
+/* .conWrapInner1:hover a{color:#02d16d;} */
+footer {
+    width: 100%;
+    float: left;
+    padding: 40px 0;
+    background: #f2f2f2;
+    text-align: left !important;
+    color:#6f6f6f;
+}
+h5.f-head span {
+    color: #000;
+}
+h5.f-head {
+    color: #024f5e;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+footer ul {
+    text-align: left;
+}
+footer p{font-size: 16px; font-family: 'Conv_Roboto-Light';}
+footer ul li a{font-size: 18px; color:#6f6f6f;}
+a:hover{text-decoration: none;}
+ul.socialLinks li {
+    width: 31px;
+    height: 31px;
+    background: #0fd374;
+    display: inline-block;
+    text-align: center;
+    margin: 0 4px;
+    border-radius: 50%;
+    color: #fff;
+    padding: 3px 0;
+}
+ul.socialLinks li .fa {
+    color: #fff;
+}
+.CopyRight{background: #000;padding:12px 0; width:100%; float: left;}
+.CopyRight p{margin-bottom: 0; text-align: center; color:#9f9f9f; font-size: 16px;}
+.JustifyNav a.SignBtn {
+    line-height: 52px;
+    color: #fff;
+    background: #02d16d;
+    padding: 0px 35px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-top: 0;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.SignInWrap{width: 100%; float: left; padding: 115px 0;}
+h1.InnerHeading{text-align: center; font-size: 30px; color:#fff; background: #024f5e; text-transform: uppercase; padding: 15px 0; margin: 0;}
+.SignOuterWrap {
+    width: 100%;
+    float: left;
+    padding: 0 32px;
+}
+.signIninner {
+    width: 100%;
+    float: left;
+    background: #fff;
+    box-shadow: 4px 7px 42px -11px #000;
+}
+.FillInfo {
+    width: 100%;
+    float: left;
+    padding: 40px 0;
+}
+.FillInfo label{color:#888a8d; margin-bottom: 10px; font-size: 16px; width: 100%;} 
+.FillInfo input[type="email"], .FillInfo input[type="password"]{margin-bottom: 30px !important; background: #f1eeee !important; border:0 !important;}
+input.submit-btn {
+    padding: 0px 50px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    background: #024f5e;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    line-height: 55px;
+}
+.Exinfo {
+    display: block;
+    margin: 0;
+    width: 100%;
+    float: left;
+    padding-left: 15px;
+    margin: 25px 0;
+    color: #888a8d;
+    font-size: 25px;
+}
+.SignUpTypeOuter select {
+    width: 100%;
+    min-height: 32px;
+    margin-bottom: 20px;
+    border: 0;
+    padding: 0 8px;
+}
+.TextField textarea {
+    width: 100%;
+    resize: none;
+}
+select, .SignUpTypeOuter textarea {
+    background: #f1eeee;
+    color: #888a8d;
+    border: 0;
+}
+
+/*Sign Up 1 Css Start Here*/
+
+/*Sign Step1 Css Start*/
+
+
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+
+
+button {
+  background-color: #4CAF50;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-family: Raleway;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#prevBtn {
+  background-color: #bbbbbb;
+}
+
+/* Make circles that indicate the steps of the form: */
+
+
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+
+
+button {
+  background-color: #4CAF50;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-family: Raleway;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#prevBtn {
+  background-color: #bbbbbb;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+    height: 60px;
+    width: 60px;
+    margin: 0 2px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 2px solid #cccccc;
+    color: #000;
+    font-size: 20px;
+    transform: translateY(-50%);
+    padding: 12px 0;
+    position: relative;
+}
+.SetTextOuter.last-step .step:after {
+    content: none;
+}
+.step:last-child {
+    margin-right: 0;
+}
+.step:after {
+    position: absolute;
+    content: "";
+    width: 85px;
+    background: #d2d0d0;
+    height: 4px;
+    left: 57px;
+    top: 27px;
+}
+.SetTextOuter .step-text{
+    color:#024f5e;
+    font-size: 18px;
+}
+
+.step.active {
+  background: #024f5e;
+  color:#fff;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #024f5e;
+  color:#fff;
+}
+
+
+.StepCounter {
+    counter-reset: section;
+    width: 100%;
+    float: left;
+}
+.StepText {
+    width: 100%;
+    float: left;
+    margin-top: -10px;
+    font-size: 18px;
+    color: #024f5e;
+}
+.StepCounter span.step::before {
+    counter-increment: section;
+    content: " " counter(section) " ";
+}
+.SetTextOuter .step-text {
+    display: block;
+}
+.SetTextOuter {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.SignUpTypeOuter input {
+    display: inline;
+    /* width: auto;
+    vertical-align: top; */
+}
+span.raTxt {
+    display: inline-block;
+}
+.SignUpTypeOuter {
+    width: 100%;
+    float: left;
+    padding: 40px 0;
+}
+.StepText span {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+/*Step 1 Css start here*/
+
+.LabelContainer {
+    display: inline-block;
+    position: relative;
+    padding-left: 34px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.LabelContainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    border: 5px solid #ccc;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.LabelContainer:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.LabelContainer input:checked ~ .checkmark {
+    background-color: #cccccc;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.LabelContainer input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.LabelContainer .checkmark:after {
+    top: 0;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #024f5e;
+}
+label i {
+    color: #fa676c;
+    font-size: 7px !important;
+    vertical-align: middle;
+}
+#regForm input {
+    background: #f1eeee;
+    border: 0;
+    padding: 0 10px !important;
+    width: 100%;
+    font-size: 17px;
+    margin-bottom: 10px;
+    min-height: 32px;
+    color: #888a8d !important;
+}
+#regForm input:focus{outline: 0; box-shadow: none;}
+#regForm{width: 100%; float: left;}
+.ActiveBtn {
+    text-align: center;
+    margin-top: 35px;
+    width: 100%;
+    float: left;
+}
+.ActiveBtn button {
+    background: #024f5e !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+    font-family: 'Conv_Roboto-Regular' !important;
+    font-size: 20px !important;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px !important;
+    line-height: 35px !important;
+    display: block !important;
+    min-width: 233px;
+    min-height: 48px;
+}
+.ActiveBtn button span{
+    font-size: 20px!important;
+}
+.form-group-calender input {
+    -webkit-appearance: none;
+}
+
+.form-group-calender input[type="date"]:before {
+    /* background: url(../images/calender-icon.png); */
+    content: "\F073";
+    right: 12px;
+    position: absolute;
+    z-index: 1; 
+    font-size: 16px;
+    font-family: fontAwesome;
+    color: #45747f;
+    
+}
+.form-group-calender input[type="date"]:hover:before{display: none;}
+.form-group-calender input [type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+.form-group-calender input [type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+/* custom styles */
+
+
+.form-group-calender input {
+  background-color: #fff;
+  padding: 3px 5px;
+  min-height: 32px;
+  margin-top: -10px;
+}
+
+.step2, .step3, .step4{margin-top: 65px;width: 100%;
+    float: left;}
+.AddMore {
+    font-size: 16px;
+    color: #024f5e;
+    float: right;
+    margin-bottom: 20px;
+}
+.secheduleInfo a {
+    margin-right: 15px;
+}
+.planWrap {
+    padding: 0;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    width: 100%;
+    float: left;
+}
+.PlanHead .PlanCost {
+    width: 76px;
+    height: 76px;
+    vertical-align: middle;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    padding: 25px 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    position: absolute;
+    top: -38px;
+    background: #024f5e;
+    right: 0;
+    left: 0;
+}
+.PlanHead h3 {
+    font-size: 16px;
+}
+.PlanHead {
+    background: #024f5e;
+    color: #fff;
+    text-align: center;
+}
+.PlanHead {
+    background: #024f5e;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    padding-top: 55px;
+    padding-bottom: 24px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.PlanBody {
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+.PlanBody .ActiveBtn button {
+    width: 80%;
+    background: #02d16d;
+}
+.step4 input{
+    background: #f1eeee;
+    border:0; 
+    margin-bottom: 0;
+}
+.step4 input:focus{box-shadow: none; outline: 0;}
+.step4 .input-group-addon {
+    background: #024f5e;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    padding: 0;
+}
+.step4 .input-group-addon input[type="file"] {
+    opacity: 0;
+    position: relative;
+    width: 72px !important;
+    padding: 0 10px;
+    z-index: 99;
+    max-width: 72px;
+    display: block;
+    line-height: 32px;
+    margin-bottom: 0 !important;
+}
+.step4 input[type="text"]{margin-bottom: 0 !important;}
+.step4 .input-group-addon span {
+    text-align: center;
+    width: 100%;
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 32px;
+}
+.step4 img {
+    margin-bottom: 30px;
+}
+.step4 .input-group{margin-bottom: 20px;}
+.step4 .ActiveBtn button {
+    width: 35%;
+    margin: -42px 10px 0px;
+}
+.step4 .ActiveBtn button:last-child {
+    background: transparent !important;
+    color: #024f5e;
+    border: 1px solid #024f5e;
+}
+.accountOuter .ActiveBtn button {
+    width: 30%;
+    margin: 0 20px;
+    background: transparent;
+    border: 1px solid #024f5e;
+    color: #024f5e;
+}
+.accountOuter .ActiveBtn button:hover {
+    background: #024f5e;
+    color: #fff;
+    opacity: .9;
+}
+
+#regForm .infoBtnType input {
+    background: #024f5e;
+    color: #fff !important;
+    min-height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+}
+#regForm .infoBtnType input:hover{background: #02d16d}
+.Dashboard .SignOuterWrap{padding: 0;}
+a.Renew-btn{display: inline-block;
+     background: #024f5e;
+    color: #fff;
+    padding: 8px 25px;
+    border-radius: 30px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.conWrapInner:hover a.Renew-btn{color:#fff;}
+li.Tr-His a {
+    background: #024f5e;
+    color: #fff;
+    padding: 17px;
+    display: inline-block;
+    border-radius: 5px;
+}
+li.Tr-His {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin-top: -12px;
+}
+ul.info.dashinfo li {
+    margin-bottom: 18px;
+}
+.dashinfo {
+    position: relative;
+
+}
+.conWrapInner:hover li.Tr-His a{
+    color:#fff;
+}
+/* .conWrapInner a.ExDate {
+    color: #02d16d;
+} */
+.dashfile{padding-top: 0; padding-bottom: 54px;}
+.dashfile .SignUpTypeOuter{padding-top: 25px;}
+.dashfile .ActiveBtn button{ 
+    width: 30% !important;
+    margin: 0 20px !important;
+    background: transparent !important;
+    border: 1px solid #024f5e !important;
+    color: #024f5e !important;
+    display: inline-block !important;
+    min-height: 60px !important;
+}
+.dashfile .ActiveBtn button:hover{background:#024f5e !important; color:#fff !important; opacity: .9}
+.conWrapInner.AccountsSetting {margin-top: 0}
+.accountOuter .form-group-calender{
+    margin-top: -3px; min-height: 32px;
+}
+.accountOuter .step4{margin-top: 0;}
+.ChoosePlanOuter .PlanHead{padding: 30px 0;}
+.ChoosePlanOuter .PlanHead h3{margin: 0 auto;}
+.ChoosePlanOuter .ActiveBtn {
+    margin-top: 30px;
+    margin-bottom: -40px;
+    width: 100%;
+   display: inline-block;
+}
+.ChoosePlanOuter {
+    padding: 38px 0;
+}
+thead {
+    background: #e4e4e4;
+}
+.HisOuter{border:1px solid #eaeaea;}
+.HisOuter .table>thead>tr>th{border-right: 2px solid #ddd;
+    text-align: center; font-size: 18px; color:#4a4949;}
+  .HisOuter .table>thead>tr>th:last-child{border-right:0;}
+  .HisOuter .table>tbody>tr>td{border-right: 1px solid #eaeaea;
+    text-align: center; color:#868686; font-size: 17px}
+    .HisOuter .table>tbody>tr>td:last-child{border-right:0;}
+    tr.conf>td:last-child {
+    color: #02d16d !important;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{padding: 15px 8px}
+
+
+
+a.View-btn {
+    width: 60%;
+    background: #024f5e;
+    padding: 10px 15px;
+    display: inherit;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: -53px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.resultWrap .conWrapInner{    margin-top: 125px;
+    margin-bottom: 30px;}
+section.consultantWrap.resultWrap {
+    padding-bottom: 100px;
+}
+
+.select-type-result select {
+    margin-left: 12px;
+    border:0;
+    margin-bottom: 0;
+    width: 140px;
+    display: inline-block;
+}
+.select-type-result select:focus{outline: 0; box-shadow: none;}
+.select-type-result {
+    width: 280px;
+    border: 1px solid grey;
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 30px;
+    float:right;
+    font-size: 18px;
+}
+
+
+/*Payment history page css start here*/
+.paymentOuter {
+    width: 100%;
+    float: left;
+    padding: 35px 25px;
+}
+.PatHead {
+    display: flex;
+    vertical-align: middle;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 35px;
+}
+.payText {
+    padding-left: 20px;
+    vertical-align: top;
+}
+.paytableOuter {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 30px;
+    padding-top: 25px;
+    width: 100%;
+    float: left;
+}
+.paytableOuter table {
+    float: right;
+}
+.paytableOuter div {
+    display: block;
+    width: 100%;
+    float: left;
+    text-align: right;
+}
+.paytableOuter div a{
+    padding:10px;
+    background: #02d16d;
+    color:#fff; 
+    display: inline-block;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-top: 35px;
+}
+.payFoot {
+    padding-top: 30px;
+    display: block;
+    width: 100%;
+    float: left;
+}
+.payText h3 {
+    margin-top: 0;
+    font-size: 25px;
+    color: #a3a3a3;
+    margin-bottom: 20px;
+}
+p.plan-txt {
+    color: #024f5e !important;
+    font-size: 16px !important;
+}
+.payText p {
+    font-size: 18px;
+    color: #b6b6b6;
+}
+table tr td:last-child {
+    color: #024f5e;
+}
+table tr td {
+    padding: 10px;
+    font-size: 25px;
+    color: #9e9c9c;
+}
+table tr:last-child td {
+    color: #024f5e;
+}
+.payFoot p{color:#9e9c9c; font-size: 16px;}
+.payFoot label {
+    color: #024f5e;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.payFoot span{color:#9e9c9c; font-size: 18px;}
+.payFoot input{min-height: 50px; margin-left: 15px; padding:0 15px; border-radius: 5px; border:0;}
+.payFoot input[type="submit"]{background: #024f5e; color:#fff; font-size: 20px; padding: 0 45px;    vertical-align: middle; }
+.payFoot input[type="text"]{border:1px solid #a3a3a3;}
+
+
+/*Payment history page css end here*/
+
+.textfields{
+
+   border:0px solid black;
+   background-color:'#f1eeee';
+   max-height:32px !important;
+   margin-bottom: 20px; 
+   width: 100% !important; 
+  
+
+}
+.RadioGroup{display: flex; justify-content: space-between; width: 100%;}
+.RadioGroup>div {
+    display: flex;
+    width: 100%;
+}
+.RadioGroup label {
+    color: #888a8d !important;
+}
+
+.companyFields .textfields {
+    width: 100% !important;
+}
+.textfields hr{
+    display:none
+}
+
+.client-listing ul.thumbs.animated {
+    display: none;
+}
+.client-listing .mr-made {
+    margin-right:20px;
+    margin-left: 20px;
+    background: #fff;
+}
+.client-listing .carousel .slide{background: transparent;}
+
+.consultantsCrousal .carousel .slide {
+    background: #fff !important;
+}
+.con-img img {
+    width: auto !important;
+}
+
+.consultantWrap ul.slider.animated li.slide.selected {
+    width: 33.33%;
+    float: left;
+    min-width: 33.33%;
+    margin: 0 15px;
+}
+.consultantWrap ul.slider.animated {
+    width: 100%;
+    float: left;
+}
+.carousel .control-next.control-arrow:after {
+    font-family: fontAwesome;
+    font-size: 40px;
+    background: #ddd;
+    width: 70px;
+    height: 70px;
+    padding: 8px 0;
+    border-radius: 50%;
+    right: 0;
+    color: #0C4E64;
+    z-index: 9999999;
+    content: "\f054";
+    position: absolute;
+    display: block;
+    top:42%;
+}
+.carousel .control-prev.control-arrow:after {
+    font-family: fontAwesome;
+    font-size: 40px;
+    background: #ddd;
+    width: 70px;
+    height: 70px;
+    padding: 8px 0;
+    border-radius: 50%;
+    left: 0;
+    color: #0C4E64;
+    z-index: 9999999;
+    content: "\f053";
+    position: absolute;
+    display: block;
+    top:42%;
+}
+.carousel .control-next.control-arrow:before, .carousel .control-prev.control-arrow:before{
+    display: none;
+}
+.carousel.carousel-slider .control-arrow:hover {
+    background:transparent !important;
+}
+.carousel .carousel-status{
+    display: none;
+}
+.fileInput{
+  border-bottom: 4px solid lightgray;   
+  border-right: 4px solid lightgray;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  padding: 10px;
+  margin: 15px;
+  cursor: pointer;
+}
+.imgPreview{
+  text-align: center;
+    margin: 5px 15px;
+  height: 200px;
+  width: 500px;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  border-top: 5px solid gray;
+  border-bottom: 5px solid gray;
+}
+
+
+
+/* new css added start here */
+
+img.remove-img {
+    display: none !important;
+}
+.carousel .thumbs{display: none;}
+.carousel .control-arrow:before, .carousel.carousel-slider .control-arrow:before{
+    display: none !important;
+}
+
+
+.consultantsCrousal li.slide {
+    max-width: 33.33%;
+}
+
+/* new css added start here */
+
+
+
+
+
+
+/* Added new Css 19 Dec 2018 */
+.OneSet .textfields {
+    margin-bottom: 0;
+}
+.fa.fa-plus {
+    font-family: fontAwesome !important;
+
+}
+
+
+.OneSet>div.fa-plus {
+    background: transparent;
+    box-shadow: none !important;
+    display: inline-block !important;
+    font-size: 18px !important;
+}
+.AddMoreBtn {
+    float: right;
+    color:#024f5e;
+    position: relative
+}
+.AddMoreBtn>div{
+    box-shadow: none;
+}
+
+.AddMoreBtn span {
+    color: #024f5e !important;
+    font-weight: bolder !important;
+}
+.AddMoreBtn span:hover{
+    background: transparent;
+    padding:10px;
+}
+.AddMoreBtn>div {
+    box-shadow: none !important;
+    width: auto;
+}
+.AddMoreBtn .fa.fa-plus {
+    font-family: fontAwesome !important;
+    position: absolute;
+    top: 27px;
+    left: 12px;
+    z-index: 9;
+}
+.form-group-calender .textfields input {
+    font-size: 10px !important;
+}
+.form-group-calender .textfields {
+    line-height: 29px !important;
+}
+
+
+
+
+
+/* New added css 20 dec 2018 */
+.ActiveBtn button, .ActiveBtn div {
+    min-height: 46px;
+    line-height: 42px;
+    box-shadow: none !important; 
+}
+.AddMoreBtn span.fa:hover {
+    padding: 0;
+}
+.AddMoreBtn button {
+    background: transparent !important;
+    z-index: 9999999999;
+}
+.AddMoreBtn div:hover {
+    background: transparent !important;
+}
+/* New added css 20 dec 2018 */
+
+
+.ActiveBtn button>div>div:hover {
+    box-shadow: none;
+    
+   }
+.infoBtnType .ActiveBtn button>div>div span {
+    color: #024f5e !important;
+}
+
+.ActiveBtn button>div{box-shadow: none !important;}
+.dashfile .ActiveBtn button:hover .ActiveBtn button>div>div span{
+    color:#fff !important;
+}
+
+
+.ActiveBtn div:hover span {
+    color: #fff !important;
+}
+
+.modalForm input[type="text"] {
+    min-height: 35px;
+    background: #e1e1e1;
+    border: 0;
+    padding: 0 10px;
+}
+.modalForm label, .modalForm input[type="text"] {
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.modalForm {
+    padding: 20px 30px;
+}
+ul.countryinfo li {
+    width: 100%;
+}
+ul.countryinfo li:first-child {
+    width: 10%;
+    margin-right: 10px;
+}
+ul.countryinfo {
+    display: flex;
+    justify-content: space-between;
+}
+    /* =======
+.searchBtn .SearchBB {
+    color: #fff;
+    font-size: 20px;
+    border-radius: 0px;
+    width: 100%;
+    position: relative;
+    min-height: 52px;
+    box-shadow: none;
+    outline: 0;
+    background: #024f5e;
+    line-height: 38px;
+>>>>>>> 505bdd923627edc3bdf94fd42e177058c2a87a7d
+} */
+.searchBtn .SearchBB {
+    color: #fff;
+    font-size: 20px;
+    border-radius: 0px;
+    width: 100%;
+    position: relative;
+    min-height: 52px;
+    box-shadow: none;
+    outline: 0;
+    background: #024f5e;
+    line-height: 38px;
+}
+
+
+.control-dots{
+    display: none
+}
+.uploadBTN button.btn.btn-info {
+    background: #024f5e !important;
+    font-size: 18px;
+    line-height: 50px;
+    border: 0;
+    box-shadow: none;
+    font-family: 'Conv_Roboto-Regular';
+    padding: 0 42px;
+}
+.customCard input {
+    margin-bottom: 0 !important;
+    min-height: 48px !important;
+}
+.mt-5.uploadBTN {
+    text-align: right;
+}
+.customCard input[type="file"] {
+    position: relative;
+    opacity: 0;
+    width: 125px !important;
+    background: transparent !important;
+    z-index: 999;
+    min-height: 6px !important;
+}
+.customCard span {
+    position: absolute;
+    top: 0;
+    width: 150px;
+    background: #024f5e;
+    height: auto;
+    z-index: 9;
+    right: 0;
+    color: #fff;
+    line-height: 47px;
+    right: 0;
+    font-size: 18px;
+}
+.customCard .input-group {
+    margin: 15px 0;
+    display: inline-table;
+}
+.FullSub button{
+    background: #024f5e !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+    font-family: 'Conv_Roboto-Regular' !important;
+    font-size: 20px !important;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px !important;
+    line-height: 35px !important;
+    display: block !important;
+    min-width: 250px;
+    min-height: 48px;
+}
+.FullSub span {
+    font-size: 18px !important;
+}
+
+.FullSub button div>div:hover {
+    background: transparent !important;
+}
+.FullSub {
+    margin-top: 65px !important;
+}
+.imagePreview{display:flex;}
+
+.imagePreview div img {
+    padding: 0 5px;
+    width: 100%;
+    height: auto;
+}
+.imagePreview div {
+    width: 25%;
+}
+.videoPreview {
+    display: flex;
+    
+}
+.videoPreview div {
+    width: 40%;
+    margin: 0 10px;
+}
+
+
+.videoPreview video {
+    max-width: 200px;
+}
+
+footer a .fa, footer a {
+    color: #6f6f6f;
+}
+.Dashboard .conWrapInner {
+    width: 100%;
+}
+
+.AboutInnerText {
+    width: 100%;
+    float: left;
+    padding: 30px
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}

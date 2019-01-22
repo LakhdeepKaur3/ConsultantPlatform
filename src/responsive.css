@@ -1,0 +1,150 @@
+@media(max-width:1369px){
+	
+}
+
+
+@media(max-width:1199px){
+	h5.f-head{font-size: 20px;}
+	.step:after{display: none;}
+	.step{margin-right: auto; margin: 0 20px;}
+	.StepText span{font-size: 14px;}
+	.searchBtn, .JustifyNav a.SignBtn{font-size: 15px;}
+	.accountOuter .infoBtnType input[type="submit"]{font-size: 16px !important;}
+
+}
+
+
+@media(max-width:1023px){
+	
+}
+
+
+
+@media(max-width:991px){
+	.FillInfo{padding: 30px 15px}
+	.con-img img{width: 100%;}
+	.con-img {
+    margin-top: -59px !important;
+    width: 50%;
+    margin: 0 auto;
+}
+.searchBtn .input-group {
+    width: 100%;
+    display: block;
+    float: left;
+}
+.selectInner select{font-size: 14px;}
+a.SignBtn{line-height: 40px; font-size: 18px; margin-top: 0;}
+.caroTxt h1{font-size: 30px;}
+section.consultantWrap{padding: 20px 0;}
+.searchBtn, .JustifyNav a.SignBtn {
+    margin-top: 15px;
+    display: block;
+    font-size: 15px;
+}
+.SignUpTypeOuter{padding: 40px;}
+.dashfile input[type="submit"]{
+	font-size: 15px !important;
+}
+.dashfile .ActiveBtn button{font-size: 15px; padding: 10px 15px;}
+li.Tr-His a{font-size: 14px; margin-top: 0; padding: 10px;}
+li.Tr-His{margin-top: 0;}
+.step4 img{width: 100%;}
+.ChoosePlanOuter .PlanHead h3{padding: 0 10px;}
+.HisOuter .table>thead>tr>th{font-size: 15px;}
+.HisOuter .table>tbody>tr>td{font-size: 14px;}
+a.View-btn{font-size: 14px;}
+
+
+}
+
+
+
+@media(max-width:767px){
+	.owl-dots{display: none;}
+	.owl-carousel .owl-item img{min-height: 250px;}
+	.caroTxt h1 {
+    font-size: 20px;
+}
+.SignOuterWrap{padding: 0}
+
+.caroTxt p{font-size: 14px;}
+h2{margin-bottom: 0; font-size: 20px};
+.main-header .navbar-default{padding: 0;}
+.main-header hr{margin-bottom: 10px;}
+.main-header .navbar-default .navbar-toggle{top:15px;}
+.main-header .navbar-brand>img{margin-left: 15px;}
+.main-header .navbar-default .nav>li{border:0;text-align: left;}
+.main-header .navbar-default .navbar-collapse{margin-top: 15px;}
+.main-header .navbar-right{margin: 0;}
+.main-header .navbar-right{margin: 0;}
+.main-header .navbar{margin-bottom:0;}
+.selectInner{margin-bottom: 15px;}
+input.submit-btn{padding: 0 50px; line-height: 45px;}
+.SignInWrap{padding: 50px 0;}
+.form-group-calender input{margin-bottom: 30px !important;}
+.planWrap {margin-bottom: 50px;}
+.step4 img{width: 100%;}
+.Dashboard .SignOuterWrap{padding-top: 60px;}
+.SignInWrap.accountOuter {padding: 100px 0;}
+
+
+
+/* New REsponsive css added start here */
+.carousel .slider-wrapper{
+	min-height: 250px;
+}
+.carousel .slide img{
+	min-height: 250px;
+}
+.carousel .control-prev.control-arrow:after, .carousel .control-next.control-arrow:after{
+	display: none;
+}
+.carousel.carousel-slider .control-arrow::before{opacity: 0;}
+
+/* New REsponsive css added end here */
+
+
+
+
+
+}
+
+
+@media(max-width:740px){
+	.con-img img{width: auto; margin-top: -11%;}
+	.payFoot input[type="submit"]{padding: 0 38px;}
+}
+
+
+
+@media(max-width:556px){
+	.step{height: 35px; width: 35px; padding: 5px 0; font-size: 15px;}
+	.SetTextOuter .step-text{font-size: 12px;}
+	h1.InnerHeading{font-size: 20px;}
+	.accountOuter .ActiveBtn button{font-size: 14px;}
+	.accountOuter .SignInWrap{padding: 100px 0;}
+	.PatHead{display: block; text-align: center;}
+	.PatHead img{margin-bottom: 20px;}
+	.payFoot input[type="submit"]{margin-left: 0; display: block; margin-top: 20px;}
+	.RadioGroup>div, .RadioGroup{display: block;}
+	.MobileRadio {
+		width: 100%;
+		float: left;
+	}
+	
+
+
+}
+
+
+@media(max-width:479px){
+	.con-img img{width: 100%;}
+	.JustifyNav a.SignBtn, .searchBtn .input-group input[type="submit"]{font-size: 14px}
+	.payFoot input[type="text"]{margin-left: 0; margin-top: 20px; display: block;}
+
+}
+@media(max-width: 320px){
+	.ActiveBtn button{font-size: 12px !important;}
+}
+
